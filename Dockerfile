@@ -1,6 +1,6 @@
 FROM node:20.12.0-alpine3.19
 
-WORKDIR /usr/src/app
+WORKDIR /Users/sneiden/100x-devs-cohort-2/full-stack/week-18/week-18-2-ci-cd
 
 COPY package.json package-lock.json turbo.json tsconfig.json ./
 
