@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation'
 import { authOptions } from "./lib/auth";
 
 
+// random comment for the sake of writing a random comment
 
 export default async function Page() {
   const session = await getServerSession(authOptions);
